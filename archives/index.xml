@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Архив on Блог Кирилла Щитаева</title>
+    <link>https://programmishkin.com/archives/</link>
+    <description>Recent content in Архив on Блог Кирилла Щитаева</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <atom:link href="https://programmishkin.com/archives/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

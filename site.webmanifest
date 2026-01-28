@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "Привет, это Кирилл. Пишу про безопасность, разработку, embedded, инженерию — короче, всякое.",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/images/genemi_ava.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "ru-RU",
+  "name": "Блог Кирилла Щитаева",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "Programmishkin blog",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}
