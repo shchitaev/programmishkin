@@ -609,6 +609,9 @@
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
+   .h-44 {
+    height: calc(var(--spacing) * 44);
+  }
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -686,6 +689,9 @@
   }
   .w-44 {
     width: calc(var(--spacing) * 44);
+  }
+  .w-56 {
+    width: calc(var(--spacing) * 56);
   }
   .w-80 {
     width: calc(var(--spacing) * 80);

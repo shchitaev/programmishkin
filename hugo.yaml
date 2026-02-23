@@ -132,17 +132,17 @@ menus:
 params:
   # Basic site info with SEO
   images:
-  - "/images/cat_avatar.png"
+  - "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"
 
   logo:
-    image: "/images/cat_avatar.png"  # Logo path rel to static folder, leave empty use site title and primary color
+    image: "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
     svg: "/images/genemi_ava.svg"        # SVG format favicon (recommended)
 
 
   author:
-    avatar: "/images/cat_avatar.png"
+    avatar: "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"
     social:
       - name: "GitHub"
         url: "https://github.com/shchitaev"

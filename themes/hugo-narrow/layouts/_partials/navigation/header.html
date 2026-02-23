@@ -4,6 +4,7 @@
     <!-- 桌面端布局 -->
     <div class="hidden w-full items-center md:flex">
       <!-- 左侧：站点 Logo -->
+       {{ if not .IsHome }}
       <div class="flex items-center">
         {{ if ne site.Params.logo.image "" }}
            <a
@@ -25,6 +26,7 @@
           </a>
         {{ end }}
       </div>
+       {{ end }}
 
       <!-- 中间：桌面端导航 -->
       <nav class="mx-8 flex flex-1 items-center justify-center">
@@ -80,7 +82,7 @@
     <div class="flex w-full items-center justify-between md:hidden">
       <!-- 左侧：移动端菜单按钮 -->
       {{ partial "navigation/mobile-menu-toggle.html" . }}
-
+       {{ if not .IsHome }}
       <div class="flex items-center">
         {{ if ne site.Params.logo.image "" }}
            <a
@@ -102,6 +104,7 @@
           </a>
         {{ end }}
       </div>
+      {{ end }}
 
       <!-- 右侧：移动端控制区域 -->
       <div class="flex items-center space-x-2">
