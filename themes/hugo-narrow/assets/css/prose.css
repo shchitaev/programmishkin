@@ -20,7 +20,7 @@
   /* 字体和间距 */
   font-family: ui-sans-serif, system-ui, sans-serif;
   line-height: 1.7;
-  font-size: 1rem;
+  font-size: 1.12rem;
   max-width: none;
 }
 
@@ -799,7 +799,7 @@
 /* 响应式调整 */
 @media (max-width: 640px) {
   .prose {
-    font-size: 0.9rem;
+    font-size: 1.12rem;
   }
 
   .prose h1 {

@@ -3630,7 +3630,7 @@
   }
   @media (max-width: 640px) {
     .prose {
-      font-size: 0.9rem;
+      font-size: 1.11rem;
     }
     .prose h1 {
       font-size: var(--text-3xl);

@@ -827,7 +827,7 @@
 /* 响应式调整 */
 @media (max-width: 640px) {
   .prose {
-    font-size: 0.9rem;
+    font-size: 1.12rem;
   }
 
   .prose h1 {

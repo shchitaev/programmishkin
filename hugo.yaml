@@ -42,7 +42,7 @@ languages:
   ru:
     languageCode: ru-RU
     languageName: "Русский"
-    title: Блог Кирилла Щитаева
+    title: Блог - Кирилл Щитаев
     weight: 2
 
     params:
@@ -132,17 +132,17 @@ menus:
 params:
   # Basic site info with SEO
   images:
-  - "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"
+  - "/images/gif_dog_coder.webp"
 
   logo:
-    image: "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"  # Logo path rel to static folder, leave empty use site title and primary color
+    image: "/images/gif_dog_coder.webp"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
-    svg: "/images/genemi_ava.svg"        # SVG format favicon (recommended)
+    svg: "/images/gif_dog_coder.webp"        # SVG format favicon (recommended)
 
 
   author:
-    avatar: "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"
+    avatar: "/images/gif_dog_coder.webp"
     social:
       - name: "GitHub"
         url: "https://github.com/shchitaev"
