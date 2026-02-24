@@ -57,7 +57,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify --ignoreCache --cleanDestinationDir
+          hugo --minify --ignoreCache --cleanDestinationDir --gc
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
