@@ -57,7 +57,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify --ignoreCache --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify --ignoreCache --cleanDestinationDir
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
