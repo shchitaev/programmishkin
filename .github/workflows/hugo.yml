@@ -55,9 +55,9 @@ jobs:
           rm -rf ${{ runner.temp }}/hugo_cache
       - name: Build with Hugo
         env:
-          HUGO_ENVIRONMENT: production
+          HUGO_ENVIRONMENT: development
         run: |
-          hugo --minify --ignoreCache --cleanDestinationDir --gc
+          hugo --minify --ignoreCache --cleanDestinationDir --disableFastRender
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
