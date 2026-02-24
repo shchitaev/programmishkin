@@ -57,7 +57,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: development
         run: |
-          hugo --minify --ignoreCache --cleanDestinationDir --disableFastRender
+          hugo --minify --ignoreCache --cleanDestinationDir
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
