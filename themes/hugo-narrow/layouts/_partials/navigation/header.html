@@ -84,26 +84,38 @@
       {{ partial "navigation/mobile-menu-toggle.html" . }}
        {{ if not .IsHome }}
       <div class="flex items-center">
-        {{ if ne site.Params.logo.image "" }}
-           <a
-            href="{{ if site.Params.logo.link }}{{ site.Params.logo.link | relLangURL }}{{ else }}{{ site.Home.RelPermalink }}{{ end }}"
-            class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
-            aria-label="{{ site.Title }}">
-            <img
-              src="{{ site.Params.logo.image }}"
-              alt="{{ site.Title }}"
-              class="h-full w-full object-cover" />
-          </a> 
-        {{ else }}
-          <!-- 默认 Logo：使用站点标题首字母 -->
-          <a
-            href="{{ site.Home.RelPermalink }}"
-            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold transition-transform duration-200 hover:scale-105"
-            aria-label="{{ site.Title }}">
-            {{ substr site.Title 0 1 | upper }}
-          </a>
-        {{ end }}
+  {{ if ne site.Params.logo.image "" }}
+    <a
+      href="{{ if site.Params.logo.link }}{{ site.Params.logo.link | relLangURL }}{{ else }}{{ site.Home.RelPermalink }}{{ end }}"
+      class="flex items-center gap-3 transition-transform duration-200 hover:scale-105"
+      aria-label="{{ site.Title }}">
+
+      <div class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full">
+        <img
+          src="{{ site.Params.logo.image }}"
+          alt="{{ site.Title }}"
+          class="h-full w-full object-cover" />
       </div>
+
+      <span class="text-base font-semibold text-foreground">
+        {{ site.Title }}
+      </span>
+
+    </a>
+  {{ else }}
+    <a
+      href="{{ site.Home.RelPermalink }}"
+      class="flex items-center gap-3 transition-transform duration-200 hover:scale-105"
+      aria-label="{{ site.Title }}">
+      <div class="bg-primary text-primary-foreground flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold">
+        {{ substr site.Title 0 1 | upper }}
+      </div>
+      <span class="text-base font-semibold text-foreground">
+        {{ site.Title }}
+      </span>
+    </a>
+  {{ end }}
+</div>
       {{ end }}
 
       <!-- 右侧：移动端控制区域 -->

@@ -42,7 +42,7 @@ languages:
   ru:
     languageCode: ru-RU
     languageName: "Русский"
-    title: Блог - Кирилл Щитаев
+    title: Блог Программишкина
     weight: 2
 
     params:
