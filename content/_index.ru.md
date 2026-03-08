@@ -4,7 +4,7 @@ author:
   name: "Привет, это Кирилл!"
   title: "Software engineer, AppSec & Pentester, и т. д."
   description: "Пишу про безопасность, разработку, embedded, инженерию — короче, всякое"
-  avatar: "https://i.giphy.com/EZr27ZbJwmjE9PGyLN.webp"
+  avatar: "/images/gif_dog_coder.webp"
   social:
     - name: "shchitaev"
       url: "https://github.com/shchitaev"
