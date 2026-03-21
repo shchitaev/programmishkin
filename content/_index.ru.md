@@ -2,7 +2,7 @@
 title: "Главная"
 author:
   name: "Привет, это Кирилл!"
-  title: "Software engineer, AppSec & Pentester, и т. д."
+  title: "Software engineer, QA, AppSec, Pentester"
   description: "Пишу про безопасность, разработку, embedded, инженерию — короче, всякое"
   avatar: "/images/gif_dog_coder.webp"
   social:

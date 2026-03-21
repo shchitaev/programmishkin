@@ -3,13 +3,10 @@ languageCode: en-US
 defaultContentLanguage: ru
 defaultContentLanguageInSubdir: false
 title: Programmishkin blog
-theme: "hugo-narrow"
-
+theme: "hugo-narrow" 
 disableLanguages : "en"
-
 hasCJKLanguage: false
 enableEmoji: true
-
 permalinks:
   posts: /posts/:slug :year :month :day/
   pages: /:slug/
@@ -50,7 +47,8 @@ languages:
       keywords: ["Programmishkin", "Блог", "Kirill Shchitaev", "Кирилл Щитаев", "Software engineer", "AppSec & Pentester"]
       defaultAuthor: "Кирилл Щитаев"
       language: "ru-RU"
-      shortName: "Programmishkin blog"  # PWA
+      shortName: "Programmishkin blog"
+      handlerName: "домой, Уолтер" # PWA
 
       author:
         name: "Кирилл Щитаев"
@@ -133,7 +131,6 @@ params:
   # Basic site info with SEO
   images:
   - "/images/gif_dog_coder.webp"
-
   logo:
     image: "/images/gif_dog_coder.webp"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page

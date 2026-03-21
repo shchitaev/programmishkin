@@ -98,7 +98,7 @@
       </div>
 
       <span class="text-base font-semibold text-foreground">
-        {{ site.Title }}
+        {{ .Site.Params.handlerName }}
       </span>
 
     </a>
@@ -111,7 +111,7 @@
         {{ substr site.Title 0 1 | upper }}
       </div>
       <span class="text-base font-semibold text-foreground">
-        {{ site.Title }}
+        {{ .Site.Params.handlerName }}
       </span>
     </a>
   {{ end }}
