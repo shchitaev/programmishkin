@@ -53,6 +53,8 @@ languages:
       author:
         name: "Кирилл Щитаев"
         title: "Блог Программишкина"
+        hiring: true  # Включает плашку
+        hiring_text: "Open to Work" # Текст на плашке
         description: "Пишу про безопасность, разработку, embedded, инженерию — короче, всякое."
 
 # 分类法配置
@@ -135,7 +137,7 @@ params:
     image: "/images/gif_dog_coder.webp"  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
-    svg: "/images/gif_dog_coder.webp"        # SVG format favicon (recommended)
+    svg: "/images/favicon_dog_coder.ico"        # SVG format favicon (recommended)
 
 
   author:

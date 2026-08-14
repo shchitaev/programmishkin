@@ -6,10 +6,11 @@ tags: ["Flussonic", "IP-CAM", "rtsp"]
 categories: ["BugBounty"]
 draft: false
 cover: "/img/Flussonic-admin1.jpg"
+#cover: "https://i.giphy.com/RbDKaczqWovIugyJmW.webp"
 slug: "ip-cam"
-
 ---
-
+> [!IMPORTANT]
+> Статья написанна по реальным кейсами, однако данные были заменены и анонимизированы.
 # {{< param "title" >}}
 
 Была обнаружена уязвимость, которая позволяет получить доступ к административной панели систем Flussonic (видеостриминовый сервер).

@@ -18,7 +18,7 @@ author:
     - name: kirillshchitaev@gmail.com
       url: mailto:kirillshchitaev@gmail.com
       icon: email
-    #- name: "CV"
-    #  url: "./cv"
-    #  icon: "file-text"
+    - name: "CV"
+      url: "./cv"
+      icon: "file-text"
 ---

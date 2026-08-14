@@ -7,6 +7,8 @@ categories: ["BugBounty"]
 draft: false
 slug: "promode_error"
 ---
+> [!IMPORTANT]
+> Статья написанна по реальным кейсами, однако данные были заменены и анонимизированы.
 
 # {{< param "title" >}}
 

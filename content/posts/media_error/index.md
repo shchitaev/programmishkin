@@ -8,6 +8,8 @@ categories: ["BugBounty"]
 slug: media_error
 cover: "/img/screen_pay_error.jpg"
 ---
+> [!IMPORTANT]
+> Статья написанна по реальным кейсами, однако данные были заменены и анонимизированы.
 
 # {{< param "title" >}}
 
@@ -35,7 +37,12 @@ cover: "/img/screen_pay_error.jpg"
 
 При попытке обратиться к плейлисту потока через `ffmpeg`, сервер возвращает ошибку `403`:
 
-![](./img/screen_fflite_playlist.jpg "ffmpeg не соединяет с источником")
+```ffmpeg не соединяет с источником
+~ % ffmpeg -i "https:/testcdn.net/4cc91b9b-bbf4-462c/3840x2160/video.m3u8"
+[https @ 0x600001674000] HTTP error 403 Forbidden n#0 C 0x600001f78000] Error opening input: Server returned 403 Forbidden (access denied) Error opening input file https:/testcdn.net/4cc91b9b-bbf4-462c/3840x2160/video.m3u8
+Error opening input files: Server returned 403 Forbidden (access denied)
+```
+<figcaption class="image-caption">При повторном запросе не соединяет</figcaption>
 
 Как было сказано ранее, для аутентификации доступа к плейлисту необходимо использовать вебсокет (возможно, требуются дополнительные действия). Чтобы оперативно получить доступ, нужно собрать поток, пока вебсокет открыт.
 
