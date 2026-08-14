@@ -18,7 +18,10 @@ author:
     - name: kirillshchitaev@gmail.com
       url: mailto:kirillshchitaev@gmail.com
       icon: email
+    - name: KirillShchitaev
+      url: https://www.youtube.com/@KirillShchitaev
+      icon: youtube
     - name: "CV"
-      url: "./cv"
+      url: "./cv_ru"
       icon: "file-text"
 ---

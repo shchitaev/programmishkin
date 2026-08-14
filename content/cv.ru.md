@@ -1,7 +1,7 @@
 ---
 title: "CV Redirect"
 layout: "redirect"
-url: "/cv"
+url: "/cv_ru"
 aliases:
     - /resume
     - /work
